@@ -4,10 +4,10 @@ C application for replacing strings within a file
 
 ## Purpose
 
-	This is a C language application for replacing strings within a file, 
+This is a C language application for replacing strings within a file, 
 using a simple command line utility called "replace",
 
-ex: replace OPT <from> <to> -- <filename> [<filename>]*
+	ex: replace OPT <from> <to> -- <filename> [<filename>]*
 
 where OPT can be zero or more of -b, -f, -l, -i
 
