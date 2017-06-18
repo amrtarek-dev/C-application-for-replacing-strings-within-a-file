@@ -516,6 +516,6 @@ int main(int argc, char** argv) {
         // then get the next file
         index_files++;
     }
-    printf("Success\n")
+    printf("Success\n");
     return (EXIT_SUCCESS);
 }
