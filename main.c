@@ -509,12 +509,13 @@ int main(int argc, char** argv) {
             index_opt++;
         }
 
-        printf("the new buffer: %s, new length: %d \n", buffer_struct_ptr->buffer, buffer_struct_ptr->buffer_length);
+        //printf("the new buffer: %s, new length: %d \n", buffer_struct_ptr->buffer, buffer_struct_ptr->buffer_length);
         // last saving the file
         save_file(cmd_data_parsed_struct_ptr->filenames[index_files], buffer_struct_ptr);
 
         // then get the next file
         index_files++;
     }
+    printf("Success\n")
     return (EXIT_SUCCESS);
 }
