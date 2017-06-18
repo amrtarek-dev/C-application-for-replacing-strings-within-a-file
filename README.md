@@ -45,8 +45,9 @@ Netbeans IDE with c/c++ compiler (GCC)
 1- Download the zip file, and unzip it.
 2- Open the Netbeans (IDE).
 3- File -> Open Project, then select the project (C application for replacing strings within a file).
+4- Run -> Clean and Build Project (Shift + F11).
 5- create files with data in it to replace and put it in the same directory of main.c
-4- run it
+6- run it
 ```
 
 ## Test Example
